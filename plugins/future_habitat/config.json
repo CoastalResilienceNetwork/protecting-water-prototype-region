@@ -58,7 +58,7 @@
 },{
 	"name": "Nassau County",
 	"extent": {"xmin":-73.7858554795,"ymin":40.5233235436,"xmax":-73.4116243449,"ymax":40.9934520639,"spatialReference":{"wkid":4326}},
-    "url": "http://services.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/NY_SLAMM_Nassau/ImageServer",
+    "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/Future_Habitat/NY_SLAMM_Nassau/ImageServer",
 	"cellsize": 1,
 	"root": "NY_SLAMM_Nassau",
 	"field": "name",
