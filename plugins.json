@@ -1,10 +1,6 @@
 {
   "plugins": [
     {
-      "repo": "layer_selector",
-      "name": "layer_selector"
-    },
-    {
       "repo": "community-planning",
       "name": "community_planning"
     },
