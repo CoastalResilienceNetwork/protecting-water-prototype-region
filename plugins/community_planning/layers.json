@@ -2,12 +2,12 @@
     {
         "agsSource": {
             "url": "http://services.coastalresilience.org:6080/arcgis/rest/services",
-            "folderTitle": "New_York_Community_Planning",
+            "folderTitle": "Community_Planning",
             "folders": [
                 {
-				    "name": "Suffolk_County_South_Shore",
+				    "name": "New_York",
                     "services": [
-                        { "name": "Base_data", "type":"dynamic" }
+                        { "name": "Suffolk_County_South_Shore", "type":"dynamic" }
                     ]
                 }
             ]
