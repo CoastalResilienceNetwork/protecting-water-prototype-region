@@ -22,7 +22,7 @@
 				"Current|Low|None": undefined,
 				"2020|Low|None": [{"type":"dynamic","show":[54,55]}], 
 				"2050|Low|None": [{"type":"dynamic","show":[48,49]}],
-				"2080|Low|None": [{"type":"dynamic","show":[20]}],
+				"2080|Low|None": [{"type":"dynamic","show":[20, 21]}],
 				"Current|Medium|None": undefined,
 				"2020|Medium|None": [{"type":"dynamic","show":[56,57]}], 
 				"2050|Medium|None": [{"type":"dynamic","show":[50,51]}],
