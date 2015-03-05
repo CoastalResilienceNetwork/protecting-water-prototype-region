@@ -1,21 +1,21 @@
 {
     "name": "Flood & Sea Level Rise",
-	"pluginHeight": 450,
+	"pluginHeight": 490,
 	"ddText": "Choose Data Source",
 	"regions": [
 		{
 			"name": "Coastal Resilience data",
 			"extent": {"xmin":-8279552.773327565,"ymin":4952655.188376434,"xmax":-7983615.836980773,"ymax":5088660.854503088,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 			"methods": "methods/SLR.pdf",
-			"variables": [
-				{"name":"Choose Year", "index":0, "values":[{"name":"Current","value":"Current", "help": "Year 2010"},{"name":"2020", "value":"2020"}, {"name":"2050", "value":"2050"}, {"name":"2080", "value":"2080"}]},
-				{"name":"Choose Sea Level Rise", "index":1, "values":[ {"name":"None","value":"None"},{"name":"Low","value":"Low"},{"name":"Medium","value":"Medium"},{"name":"High","value":"High"}]},
-				{"name":"Choose Storm Surge", "index":2, "values":[ {"name":"None","value":"None"},{"name":"Category 2","value":"c2", "default": true},{"name":"Category 3","value":"c3"}]}
+			"controls": [
+				{"name":"Choose Year", "index":0, "type": "slider", "values":[{"selected": true, "name":"Current","value":"Current", "help": "Year 2010"},{"name":"2020", "value":"2020"}, {"name":"2050", "value":"2050"}, {"name":"2080", "value":"2080"}]},
+				{"name":"Choose Sea Level Rise", "type": "slider", "dependent" : "2020|2050|2080",  "index":1, "values":[{"name":"Low","value":"Low" , "selected": true},{"name":"Medium","value":"Medium"},{"name":"High","value":"High"}]},
+				{"name":"Choose Storm Surge", "type": "radio", "index":2, "values":[ {"name":"None","value":"None", "dependent" : "2020|2050|2080"},{"name":"Category 2","value":"c2", "selected": true},{"name":"Category 3","value":"c3"}]}
 				],
-			"mainURL": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services/New_York/NY_Flood_and_SLR_Data/MapServer",
+			"mainURL": "http://services.coastalresilience.org:6080/arcgis/rest/services/New_York/NY_Flood_and_SLR_Data/MapServer",
 			"combos": {
 			
-				"Current|None|None": undefined,
+				"Current|None": undefined,
 				"2020|None|None": undefined, 
 				"2050|None|None": undefined,
 				"2080|None|None": undefined,	
@@ -32,7 +32,7 @@
 				"2050|High|None": [{"type":"dynamic","show":[52,53]}],
 				"2080|High|None": [{"type":"dynamic","show":[44,45,46,47]}],
 				
-				"Current|None|c2": [{"type":"dynamic","show":[64,65,66,67]}],
+				"Current|c2": [{"type":"dynamic","show":[64,65,66,67]}],
 				"2020|None|c2": undefined, 
 				"2050|None|c2": undefined,
 				"2080|None|c2": undefined,	
@@ -49,7 +49,7 @@
 				"2050|High|c2": [{"type":"dynamic","show":[32,33]}],
 				"2080|High|c2": [{"type":"dynamic","show":[24,25,26,27]}],	
 				
-				"Current|None|c3": [{"type":"dynamic","show":[60,61,62,63]}],
+				"Current|c3": [{"type":"dynamic","show":[60,61,62,63]}],
 				"2020|None|c3": undefined, 
 				"2050|None|c3": undefined,
 				"2080|None|c3": undefined,	
@@ -72,8 +72,8 @@
 			"name": "NOAA SLR Viewer data",
 			"extent": {"xmin":-8279552.773327565,"ymin":4952655.188376434,"xmax":-7983615.836980773,"ymax":5088660.854503088,"spatialReference":{"wkid":102100,"latestWkid":3857}},
 			"methods": "http://coast.noaa.gov/digitalcoast/tools/slr",
-			variables: [
-				{"name":"Choose SLR", "index":0, "values":[{"name":"Current","value":"0", "help": "Year 2010"},{"name":"1 ft", "value":"1"}, {"name":"2 ft", "value":"2"}, {"name":"3 ft", "value":"3"}, {"name":"4 ft", "value":"4"}, {"name":"5 ft", "value":"5"}, {"name":"6 ft", "value":"6"}]}
+			controls: [
+				{"name":"Choose SLR", "type": "slider", "index":0, "values":[{"selected": true, "name":"Current","value":"0", "help": "Year 2010"},{"name":"1 ft", "value":"1"}, {"name":"2 ft", "value":"2"}, {"name":"3 ft", "value":"3"}, {"name":"4 ft", "value":"4"}, {"name":"5 ft", "value":"5"}, {"name":"6 ft", "value":"6"}]}
 				],
 			combos: {
 			
