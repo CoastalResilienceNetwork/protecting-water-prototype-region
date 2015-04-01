@@ -2,15 +2,23 @@
     {
         "agsSource": {
             "url": "http://dev.services2.coastalresilience.org:6080/arcgis/rest/services",
-            "folderTitle": "Community_Planning",
+            "folderTitle": "New York",
             "folders": [
                 {
-				    "name": "New_York",
+					"name": "New_York",
                     "services": [
-                        { "name": "Suffolk_County_South_Shore", "type":"dynamic" }
-                    ]
-                }
-            ]
+						{ "name": "New_York", "type":"dynamic", "displayName":"Suffolk County South Shore", "showLayers": [
+                                {"id":61, "parentLayerId":-1 },
+                                {"id":62, "parentLayerId":-1 },
+                                {"id":63, "parentLayerId":-1 },
+                                {"id":64, "parentLayerId":-1 },
+                                {"id":65, "parentLayerId":-1 },
+                                {"id":66, "parentLayerId":-1 }
+							]
+						}	
+					]
+				}
+			]
         }
-    }
+	}
 ]
