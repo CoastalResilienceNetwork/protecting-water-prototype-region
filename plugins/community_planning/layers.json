@@ -9,11 +9,11 @@
                     "services": [
 						{ "name": "New_York", "type":"dynamic", "displayName":"Suffolk County South Shore", "showLayers": [
                                 {"id":61, "parentLayerId":-1 },
-                                {"id":62, "parentLayerId":-1 },
-                                {"id":63, "parentLayerId":-1 },
-                                {"id":64, "parentLayerId":-1 },
-                                {"id":65, "parentLayerId":-1 },
-                                {"id":66, "parentLayerId":-1 }
+                                {"id":62, "parentLayerId":61 },
+                                {"id":63, "parentLayerId":61 },
+                                {"id":64, "parentLayerId":61 },
+                                {"id":65, "parentLayerId":61 },
+                                {"id":66, "parentLayerId":61 }
 							]
 						}	
 					]
