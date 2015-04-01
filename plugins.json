@@ -2,10 +2,6 @@
   "frameworkVersion": "f565be2",
   "plugins": [
     {
-      "repo": "community-planning",
-      "name": "community_planning"
-    },
-    {
       "repo": "multiSelect",
       "name": "flood_slr"
     },
