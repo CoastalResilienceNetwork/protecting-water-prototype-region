@@ -5,7 +5,7 @@
             "folderTitle": "New York",
             "folders": [
                 {
-					"name": "New_York",
+					"name": "",
                     "services": [
 						{ "name": "New_York", "type":"dynamic", "displayName":"Suffolk County South Shore", "showLayers": [
                                 {"id":61, "parentLayerId":-1 },
