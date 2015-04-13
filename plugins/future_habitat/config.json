@@ -117,7 +117,7 @@
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
 	variables: [
-		{"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
+		{"name":"Choose a SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
 		],
 	"change": true,
