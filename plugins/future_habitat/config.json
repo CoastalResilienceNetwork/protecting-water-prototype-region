@@ -11,11 +11,11 @@
 	"cellsize": 1,
 	"root": "NY_SLAMM_NYC",
 	"field": "name",
-	"methods": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/",
 	"initialCondition": "Initial_Condition",
+	"buttons": [{"title": "Data source: NYSERDA", "url": "http://www.nyserda.ny.gov/"}, {"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	delimiter: "_",
 	variables: [
-		{"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
+		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
 		],
 	"change": true,
@@ -62,11 +62,11 @@
 	"cellsize": 1,
 	"root": "NY_SLAMM_Nassau",
 	"field": "name",
-	"methods": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/",
+	"buttons": [{"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
 	variables: [
-		{"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
+		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
 		],
 	"change": true,
@@ -113,11 +113,11 @@
 	"cellsize": 1,
 	"root": "NY_SLAMM_Suffolk_West",
 	"field": "name",
-	"methods": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/",
+	"buttons": [{"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
 	variables: [
-		{"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
+		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
 		],
 	"change": true,
@@ -164,11 +164,11 @@
 	"cellsize": 1,
 	"root": "NY_SLAMM_Suffolk_East",
 	"field": "name",
-	"methods": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/",
+	"buttons": [{"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
 	variables: [
-		{"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
+		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
 		],
 	"change": true,
@@ -215,11 +215,11 @@
 	"cellsize": 1,
 	"root": "NY_SLAMM_Hudson",
 	"field": "Name",
-	"methods": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/",
+	"buttons": [{"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
 	variables: [
-		{"name":"Choose an SLR Scenario", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
+		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
 		],
 	"change": true,
