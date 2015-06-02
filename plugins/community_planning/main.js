@@ -8,7 +8,7 @@ define([
         return declare(LayerSelectorPlugin, {
             toolbarName: "Community Planning",
             fullName: "Configure and control layers to be overlayed on the base map.",
-			infoGraphic: "plugins/community_planning/CommunityPlanning_c.jpg",
+			infoGraphic: "plugins/community_planning/CommunityPlanning_c2.jpg",
 
             getLayersJson: function() {
                 return layerSourcesJson;
