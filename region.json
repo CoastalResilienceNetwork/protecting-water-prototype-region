@@ -67,7 +67,7 @@
         "outlineColor": "#008000",
         "opacity": 0.2,
         "clickToFocus": true,
-        "hideByDefault": false,
+        "hideByDefault": true,
     },
      "launchpads": [
         {
@@ -79,7 +79,20 @@
             "showByDefault": true,
             "categories": [
               {
-                "name": "Select a Use Mode",
+                "name": "Geographies",
+                "description": "Choose a specific region and it will take you there, or you can freely explore the map.",
+                "issues": [
+                    {
+                      "name": "Explore the map",
+                      "description": "",
+                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MzA2NTAyLjIyOcWGMzMyM8SaecWBxJM0ODk0MMWcLjcxNjI1NTjFpcS/xKl4xIgtNznFojg0MS4zxYkxxZHFkTXFlcWpxIjFicWFOTEwxYzFmzXFoTE0xZTEgXBhdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIjGgDLGgDDEmmzGi2VzdFfGmcabOjPFpjd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGr8aKbmXEq8aWx4NlTnVtYsaSx4DEmsalxqNPZlBsdWfFgsSixpbEmMayxrRlZMeVx5fFgsSIbnVsbMSaxIzHom7HmnvGrsau",
+                      "faIcon": "fa fa-globe",
+                      "faSize": 32
+                    }
+                ]
+            } ,
+            {
+                "name": "One-Click Interactive Maps",
                 "description": "Choose a specific region and it will take you to the recommendations map for that area, as well as allow you to explore the full suite of data and priority maps and make a custom map.",
                 "issues": [
                     {
@@ -95,7 +108,7 @@
                       "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
                       "saveCode": "e34df34rd3....3434",
                       "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MjQxMzk0LjLFijM3MMWJMsSaecWBxJM0xYo2OTI4xYw4MTk5NzjFh8S/xKl4xIjFhDIwNjPFnC44MDc2NDQ2MTXFlMWnxIjFmMW0NsW3LjY3MjU1xaHFo8SaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMDLGnTDEmmzGi2VzdFfGmcabOjM4NTfEpyJjYWNoxpXEgF9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvHgsWmxYLFqcWFxYfFicWLxY00xY/FkcWbxbrHijrFmMW2xZvFncWcxaDFosWkMcWmYcWoOsWqxazFrsWdxbHFs8W1xbfFuSLFlceixbw5xb7GgMaCxoTGhseexonGucaMxo7GkMaSxIZjxrbGl8apxpzGnsagxqLGpMamxqjGmsSIxqzGrn3GsGZyYW1lSWTGvVswXX3Im8awxJhsZWPEsGRCYcSYxKlwSW5kxK7EiDbGsMa5bmXEq8aWyLFlTnVtYsaSxIjGocSBdMakT2ZQbHVnxYLGvcSKZcigyKJlZMmEyYbHliLEjMmRbnMvZnV0dcSEX2hhYsSOxosixJrJlMmHyZbEs8mmyYjJmMmayZxlyZ7JoMmixLLGlmdlb8SzbsiTxpUiTmV3IFlvcmsgQ8SOecmkxLrHgcS9xLPFgMeWLTfHjzbGnzUwx6k3x5XFlzAuNDcxxaDFjTHKk8ehx6PKkDPGgcqexZDGrsWFOMW6x7DHl8qbxZswNTY4xa40yq3Egce6xo1sxo/GkcaTyIDEs8aYyIvHl8WuyK/GsMmcbMS5aHR0cDovL8SYcnZpyIBzLmNvyKbJgGzEhHNpxI3Hv2UuyoJnL8a6Y8mHyZfLn3TLksaSy5XLly9Gya3JnUjJscmAy65OWV9TTEFNTV/Lu0MvScSpybVTy7DIvMSayIBsxJdpesaVx6Aicm9vybPJvMu8y77MgMyCzITKiWZpyYvGqiLJuciUyonFgsSOyrxDb8irzKrMrcS5yKrMqsSWX8yszK7GjMywxJpiyZp0zK3ImMSAxox0yKDEuUTGi2Egc2/JnMiAOiDLu1NFUkRByonLicuLy43Lj8uRd82bLm55y5NkYc2deS5nb3YvIsSnzYDEjs2DOiJEb3dubMubZCDNhcmAIGHIqyDGj3DKgsS+Is2Wza/LjMuOy5Avd8a6xpNwxYLJuWPIoMuZb20vcMyWZi/MnMyBL82PzZHNk82pyJzEmsisxI3FgcSwcsS5X8qJdsa6xo1iyKDMv8ylybrEuUNozJfEmM27biDLvlLOusiAyblyacm3xJrGtWxwzYTNhiDOlm9kdciAzbd1y6BuZ866y7/MgSwgyZnIq8mOIGJ5zY5ZzZDNks2UxJrFgsisx6PIvs6ryYXGpcSIxr/Oscynza9DyZzGk3Q8YnI+zLZkzK/Eh8Saz6l1ybvMqce7bM+5z7vKic+Ez4bNr1llxrogxavGncqJyJ/IocijxKPElsSYzavPrsm7R0NNIMSfxajPvcSWz7/EudCazILQntCQyYvQksmO0JTEpdCXzKbJuzFtz5zPnsafMMSr0KDPqsS50LBfz51f0LTQtsSB0KjJjcaqxKTQlizEgNCuxLlSSdCcTceK0LfQos2v0YrQpdGO0YDJjNCTxJTQlcSm0YbQmNGJ0YvQncew0Y/Ju9GSX9CmxonRgdGXdHLPv8ic0K3Oss+wzrVvzrfNh8SQxIbOrG/KgNCLzqfPpM+ax6PMlM++z6vGvtGH0a4ixavGhM6q0KHJu9KFNdCn0ZbQqtGY0KzRm9GIza/Fq8aF0ofQuNKTyrPSi9Gm0o3Rg9GZ0a3Pr9KEypbSmiLRv8S5xavGrdKM0KnSndKQ0oLSoNC+0pbRkNKExqDSqdGCxIjRqdGryJtdzI3Jn8+SxpXSt8SZIsmfyaHLuc6w0pLKis6Qdcis0rDSgFvFuCzKotOPypgxyq3FoCzFk8af05Y0yJvSkdKDRsqCxqXIoyBXZc2CzbzIl9OLyJgzLDQsOdOWM9K60ZXSqtK20arRmtKtybvEn3JzaNOoz6zFuTYsypjKrcWr07HQkdK1OtK/0p/Ju0LQi8a0xqXOuM23RsajxrzTvca+xp3Tj8egMcWTxYjTj9OsMtOXNtSF0afSjtSJ05zSoERldsmLb8S3zbdM06bUldON05Y11KLSnNO00rjMjW/NtXLIqM+syJksxqHVgdK61LLTk9OqN9OSMNOaLFvTl8aE04/VidSBN9WD1YbTksW/1ZHVg9Os1YcsxaTVgNWDxbnVmse21ZfVi9SA1J/GodWhxavImtWL1ZXFucqi1Z/VktWLyq3VmsWg06rVs9WD067KotSA1bLFv9WD1JfVp8aF05bGntW8x6DGn9aDyp/Tlsqf1bzTl9W/1aHVh9W806rVgdWd1Ysx06zFuMah1pXTj8qV1bzVrtWR1LPUtNaS1bnKmNWgxoXVvNah1qXWndW81bHWpse21bzTrtWa1brUodWLxavVgCw21YLWsceg1pDVqdWM1JvVltSax6DWjdax1ZTTj9OY14DVjNOs1rnVg9WO14jTscajyLvEl8SzMc2E1KnUq9StINSvyKvKiTLEuVXPmtSqzbXXldeXxpvEmjPEuVPOim3PhsSaNM6zxLbLn3PXpsiT16ki0ovNr8iqxqPNvUbLn2jOis6m0Z/TutO8xJo2xLlUxprEliDXucal17vGpHLXvtO7yok32IPIksmWz7vYhtO507sgKMSQ0apiLVNo2Jspyok40YllZ3XGo3Jsz57UksyXyKzNt9iW2IAiOcS5xJ/PksyW1KrKidCPza9FxqZ1zqzIsiDUjMaz2LHKn9iD2IVs2IfUk9i515rNr0/IgM282YHUjdmE16TZjdmPzrnUksmjxJrWk9GJb2Nrz57Iqs6mxozNocuK2ZrXtCLXttOmIE/Et865V9iL2LnYgtGRadSqz4DZgNiE2aTYudiQ2LvYvdi/ZdOi2bDZmtijza/ZuNiGQ8SEZWvYudiz2Y3Zrdmr2ZbXmci02ahyxITYptio2KrZiditz5vYsNeZ15HNr07MmCBVxJjXotKE2YzZqM202arYntOf15nZlCLahdmI17DXqNeZ16vNr0LXt9qKxJrShs2v2KzPi8+b1KjXntSsz5vXodeZ2bIi2r1k057LrdiYxLfUvM28xLHamGbNtdq+zbdj163GpXPNiNencNihxrDErtOI04rUltWs1IAx05LTlNOu05fWg9OaxrDRqc28xr3Ivsifz6XIrTrbsMmfx4XGltm2Z8iYW1vFqsW/x4zFsMWI1JrFrcWIxbnFmDPFtjUyxbA3M8ad3IjFodWD277KtcWG3IHcjjLchDPFucqV0LXFrdyLyrTGntSfxZrVitu9xYUwxp3Hsi7VhzPFtzPGntSA3JzHptyf1rXUn9yYxYrcktym3Kg23Krcjdyt3K/TqznciDbcityM3I7FkcWYOdy43JjclMWLxZ/cl9yZ3IbdgdyJ3Is43I3cj92IXd2Zx7nGi8q8yr7HvsaUy4LIgzrGndC+yI/dpsiP",
-                      "faIcon": "fa fa-envira",
+                      "faIcon": "fa fa-leaf",
                       "faSize": 32
                     },
                     {
