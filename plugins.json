@@ -15,7 +15,6 @@
     {
       "repo": "future_habitat",
       "name": "future_habitat"
-<<<<<<< HEAD
                 },
     {
       "repo": "map-tree",
@@ -24,8 +23,6 @@
         {
             "repo": "map-tree",
             "name": "community_planning"
-=======
->>>>>>> origin/development
     }
   ]
 }
