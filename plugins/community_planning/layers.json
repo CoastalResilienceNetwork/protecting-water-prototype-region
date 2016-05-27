@@ -1,7 +1,11 @@
 [
     {
         "agsSource": {
+<<<<<<< HEAD
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/New_York",
+=======
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/New_York",
+>>>>>>> origin/development
             "folderTitle": "New York",
             "folders": [
                 {

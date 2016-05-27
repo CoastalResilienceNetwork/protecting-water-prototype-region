@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "googleAnalyticsPropertyId": "7401895-16",
+=======
+    "googleAnalyticsPropertyId": "7401895-14",
+>>>>>>> origin/development
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
     "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
     "titleDetail": { "text": "New York", "url": "http://coastalresilience.org/geographies/new-york-and-connecticut" },
@@ -54,7 +58,7 @@
         "subregion_toggle"
     ],
     "print": {
-        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
+        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
     },
     "colors": {
        "primary": "#26648E",
@@ -80,7 +84,11 @@
             "categories": [
               {
                 "name": "Geographies",
+<<<<<<< HEAD
                 "description": "Choose a specific region and it will take you there, or you can freely explore the map.",
+=======
+                "description": "Launch the mapping platform",
+>>>>>>> origin/development
                 "issues": [
                     {
                       "name": "Explore the map",
@@ -93,7 +101,11 @@
             } ,
             {
                 "name": "One-Click Interactive Maps",
+<<<<<<< HEAD
                 "description": "Choose a specific region and it will take you to the recommendations map for that area, as well as allow you to explore the full suite of data and priority maps and make a custom map.",
+=======
+                "description": "Jump to custom maps of coastal hazards, current and future marsh habitats, for guidance on risk reduction and adaption",
+>>>>>>> origin/development
                 "issues": [
                     {
                       "name": "Hurricane Sandy Surge Extent",

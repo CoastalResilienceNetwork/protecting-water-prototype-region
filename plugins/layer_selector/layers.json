@@ -1,7 +1,11 @@
 [
     {
         "agsSource": {
+<<<<<<< HEAD
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/New_York",
+=======
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/New_York",
+>>>>>>> origin/development
             "folderTitle": "Coastal Resilience (NY)",
             "folders": [
                 {
@@ -133,7 +137,11 @@
 				"name": "",
 				"services": [{
 					"name": "SurgeBoundaries_Final_0214",
+<<<<<<< HEAD
 					"displayName": "Final FEMA Surge Area - February 2013",
+=======
+					"displayName": "Final FEMA Surge Area - February 2014",
+>>>>>>> origin/development
 					"type": "dynamic",
 					"visibleLayerIds": [0,1,2],
 					"showLayers": []
@@ -144,6 +152,7 @@
 					"visibleLayerIds": [2],
 					"showLayers": []
 				}]
+<<<<<<< HEAD
 			},  {
 				"url": "http://54.243.149.253:8080/ArcGIS/rest/services",
 				"name": "",
@@ -166,6 +175,8 @@
 					"visibleLayerIds": [6],
 					"showLayers": []
 				}]
+=======
+>>>>>>> origin/development
 
 			}]
 
@@ -181,13 +192,21 @@
 
 			"folders": [{
 
+<<<<<<< HEAD
 				"url": "http://54.225.181.217:6080/arcgis/rest/services/LongIsland",
+=======
+				"url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+>>>>>>> origin/development
 
 				"name": "",
 
 				"services": [{
 
+<<<<<<< HEAD
 					"name": "LIdtw10",
+=======
+					"name": "56b3b8b2e4b0cc79997fb3a8",
+>>>>>>> origin/development
 
 					"displayName": "USGS Depth to groundwater 2010",
 
