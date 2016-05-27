@@ -7,11 +7,7 @@
 {
 	"name": "New York City",
 	"extent": {"xmin":-74.2621508077,"ymin":40.4711929162,"xmax":-73.6717057828,"ymax":40.9205683248,"spatialReference":{"wkid":4326}},
-<<<<<<< HEAD
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_NYC/ImageServer",
-=======
-    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_NYC/ImageServer",
->>>>>>> origin/development
 	"cellsize": 1,
 	"root": "NY_SLAMM_NYC",
 	"field": "name",
@@ -19,11 +15,7 @@
 	"buttons": [{"title": "Data source: NYSERDA", "url": "http://www.nyserda.ny.gov/"}, {"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	delimiter: "_",
 	variables: [
-<<<<<<< HEAD
 		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
-=======
-		{"name":"Choose an SLR Scenario", "help": "Data produced using SLAMM, funded by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
->>>>>>> origin/development
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
 		],
 	"change": true,
@@ -66,11 +58,7 @@
 },{
 	"name": "Nassau County",
 	"extent": {"xmin":-73.7858554795,"ymin":40.5233235436,"xmax":-73.4116243449,"ymax":40.9934520639,"spatialReference":{"wkid":4326}},
-<<<<<<< HEAD
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Nassau/ImageServer",
-=======
-    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Nassau/ImageServer",
->>>>>>> origin/development
 	"cellsize": 1,
 	"root": "NY_SLAMM_Nassau",
 	"field": "name",
@@ -121,11 +109,7 @@
 },{
 	"name": "Suffolk County - West",
 	"extent": {"xmin":-73.5052684826,"ymin":40.5449786964,"xmax":-72.7067562633,"ymax":41.1496419149,"spatialReference":{"wkid":4326}},
-<<<<<<< HEAD
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Suffolk_West/ImageServer",
-=======
-    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Suffolk_West/ImageServer",
->>>>>>> origin/development
 	"cellsize": 1,
 	"root": "NY_SLAMM_Suffolk_West",
 	"field": "name",
@@ -176,11 +160,7 @@
 },{
 	"name": "Suffolk County - East",
 	"extent": {"xmin":-72.7342868195,"ymin":40.690557094,"xmax":-71.8425616491,"ymax":41.3166835481,"spatialReference":{"wkid":4326}},
-<<<<<<< HEAD
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Suffolk_East/ImageServer",
-=======
-    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Suffolk_East/ImageServer",
->>>>>>> origin/development
 	"cellsize": 1,
 	"root": "NY_SLAMM_Suffolk_East",
 	"field": "name",
@@ -231,11 +211,7 @@
 },{
 	"name": "Hudson",
 	"extent": {"xmin":-74.1559583205,"ymin":40.644014332,"xmax":-73.8125646947,"ymax":41.0726541949,"spatialReference":{"wkid":4326}},
-<<<<<<< HEAD
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Hudson/ImageServer",
-=======
-    "url": "http://services.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Hudson/ImageServer",
->>>>>>> origin/development
 	"cellsize": 1,
 	"root": "NY_SLAMM_Hudson",
 	"field": "Name",

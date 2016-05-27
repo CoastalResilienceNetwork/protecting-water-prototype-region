@@ -89,11 +89,7 @@
 						}
 			],
             "name": "NY",
-<<<<<<< HEAD
             "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
-=======
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
->>>>>>> origin/development
 			"methods": "methods/Habitat_Explorer_2013.pdf",
 			"workspaceId": "postgis",
 			"geometryType": "polygon",
