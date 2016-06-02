@@ -72,7 +72,7 @@
             ],
             "ancillaryUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/New_York/NY_Risk_Explorer_Show_Me_Layers/MapServer",
             "name": "New York",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/PostGIS/DatabaseConnection/MapServer",
 			"methods": "methods/NY_Risk_Explorer_Methods.pdf",
 			"workspaceId": "postgis",
 			"geometryType": "point",
