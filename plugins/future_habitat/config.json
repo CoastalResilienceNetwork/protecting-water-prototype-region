@@ -8,12 +8,13 @@
 	"name": "New York City",
 	"extent": {"xmin":-74.2621508077,"ymin":40.4711929162,"xmax":-73.6717057828,"ymax":40.9205683248,"spatialReference":{"wkid":4326}},
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_NYC/ImageServer",
-	"cellsize": 1,
+	"cellsize": 5,
 	"root": "NY_SLAMM_NYC",
 	"field": "name",
 	"initialCondition": "Initial_Condition",
 	"buttons": [{"title": "Data source: NYSERDA", "url": "http://www.nyserda.ny.gov/"}, {"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	delimiter: "_",
+	"correction": {high:[22,0.568], low:[5,1]},
 	variables: [
 		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
@@ -59,12 +60,13 @@
 	"name": "Nassau County",
 	"extent": {"xmin":-73.7858554795,"ymin":40.5233235436,"xmax":-73.4116243449,"ymax":40.9934520639,"spatialReference":{"wkid":4326}},
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Nassau/ImageServer",
-	"cellsize": 1,
+	"cellsize": 5,
 	"root": "NY_SLAMM_Nassau",
 	"field": "name",
 	"buttons": [{"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
+	"correction": {high:[22,0.568], low:[5,1]},
 	variables: [
 		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
@@ -110,12 +112,13 @@
 	"name": "Suffolk County - West",
 	"extent": {"xmin":-73.5052684826,"ymin":40.5449786964,"xmax":-72.7067562633,"ymax":41.1496419149,"spatialReference":{"wkid":4326}},
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Suffolk_West/ImageServer",
-	"cellsize": 1,
+	"cellsize": 5,
 	"root": "NY_SLAMM_Suffolk_West",
 	"field": "name",
 	"buttons": [{"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
+	"correction": {high:[22,0.568], low:[5,1]},
 	variables: [
 		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
@@ -161,12 +164,13 @@
 	"name": "Suffolk County - East",
 	"extent": {"xmin":-72.7342868195,"ymin":40.690557094,"xmax":-71.8425616491,"ymax":41.3166835481,"spatialReference":{"wkid":4326}},
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Suffolk_East/ImageServer",
-	"cellsize": 1,
+	"cellsize": 5,
 	"root": "NY_SLAMM_Suffolk_East",
 	"field": "name",
 	"buttons": [{"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
+	"correction": {high:[22,0.568], low:[5,1]},
 	variables: [
 		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
@@ -212,12 +216,13 @@
 	"name": "Hudson",
 	"extent": {"xmin":-74.1559583205,"ymin":40.644014332,"xmax":-73.8125646947,"ymax":41.0726541949,"spatialReference":{"wkid":4326}},
     "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Future_Habitat/NY_SLAMM_Hudson/ImageServer",
-	"cellsize": 1,
+	"cellsize": 5,
 	"root": "NY_SLAMM_Hudson",
 	"field": "Name",
 	"buttons": [{"title": "Download Data and Report", "url": "http://warrenpinnacle.com/prof/SLAMM/NYSERDA/"}],
 	"initialCondition": "Initial_Condition",
 	delimiter: "_",
+	"correction": {high:[22,0.568], low:[5,1]},
 	variables: [
 		{"name":"Choose an SLR Scenario", "help": "Data source for the SLAMM model provided by NYSERDA", "index":0, "values":[{"name":"Current<br>Condition","value":"initialCondition", "help": "Year 2010"},{"name":"GCM Max", "value":"GCM_Max"}, {"name":"1m by 2100", "value":"1m_by_2100"}, {"name":"RIM Min", "value":"RIM_Min"}, {"name":"RIM Max", "value":"RIM_Max"}]},
 		{"name":"Choose a Scenario Year", "index":1, "values":[ {"name":"2025","value":"2025"},{"name":"2055","value":"2055"},{"name":"2085","value":"2085"},{"name":"2100","value":"2100"}]}
