@@ -1,28 +1,32 @@
 {
   "plugins": [
     {
-      "repo": "multiSelect",
-      "name": "flood_slr"
+		"repo": "multiSelect",
+		"name": "flood_slr"
     },
     {
-      "repo": "explorer",
-      "name": "habitat_explorer"
+		"repo": "explorer",
+		"name": "habitat_explorer"
     },
     {
-      "repo": "explorer",
-      "name": "risk_explorer"
+		"repo": "explorer",
+		"name": "risk_explorer"
     },
     {
-      "repo": "future_habitat",
-      "name": "future_habitat"
-                },
+		"repo": "future_habitat",
+		"name": "future_habitat"
+    },
     {
-      "repo": "map-tree",
-      "name": "layer_selector"
-                          },
-        {
-            "repo": "map-tree",
-            "name": "community_planning"
+		"repo": "map-tree",
+		"name": "layer_selector"
+    },
+	{
+		"repo": "regional-planning",
+		"name": "regional-planning"
+	},
+	{
+		"repo": "map-tree",
+		"name": "community_planning"
     }
   ]
 }
