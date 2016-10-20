@@ -102,8 +102,33 @@
 					"url": "http://gis.wim.usgs.gov/arcgis/rest/services/",
 					"name": "sandy_storm_surge"
 				},
-				"name" : "USGS_hurricane_sandy_high_water_marks",
-				"displayName" : "High Water Marks"
+				"name" : "USGS_hurricane_sandy_high_water_marks"
+			}
+		]
+	},
+	{
+        "displayName": "Depth to Groundwater",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://www.sciencebase.gov/arcgis/rest/services/Catalog",
+            "name": "56b3b8b2e4b0cc79997fb3a8"
+        },
+        "includeLayers": [
+			{
+				"displayName": "USGS Depth to groundwater 2010",
+				"combine" : true,
+				"includeLayers" : [
+					{
+						"name" : "Monitoring well (upper number is station name; lower number is estimated depth to water, in feet)"
+					},
+					{
+						"name" : "No data"
+					},
+					{
+						"name" : "Estimated depth to water below land surface, in feet"
+					}
+				]
 			}
 		]
 	}
