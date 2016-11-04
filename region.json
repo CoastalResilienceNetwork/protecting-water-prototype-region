@@ -6,23 +6,22 @@
 	"headerLinks": [
         { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
 		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
-        { "text": "GO TO", "url": "#", "items": [
-                { "text": "California", "url": "http://maps.coastalresilience.org/california" },
-                { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
-                { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
-                { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
-                { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
-                { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
-                { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
-                { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
-                { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
-                { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
-                { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
-            ]
-        },
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
+    ],
+    "regionLinks": [
+            { "text": "California", "url": "http://maps.coastalresilience.org/california" },
+            { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+            { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+            { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
+            { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+            { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+            { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+            { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+            { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+            { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+            { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
         -74.45,
@@ -58,7 +57,8 @@
     },
     "colors": {
        "primary": "#26648E",
-       "secondary": "#26648E"
+       "secondary": "#26648E",
+       "tertiary": "#333333"
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "subregions": {
@@ -67,7 +67,7 @@
         "outlineColor": "#008000",
         "opacity": 0.2,
         "clickToFocus": true,
-        "hideByDefault": true,
+        "hideByDefault": true
     },
      "launchpads": [
         {
