@@ -19,11 +19,12 @@
 	{
 		"repo": "regional-planning",
 		"name": "regional-planning",
-		"ver": "a196a4b"
+		"ver": "6550c56"
 	},
 	{
 		"repo": "regional-planning",
-		"name": "community_planning"
+		"name": "community_planning",
+		"ver": "6550c56"
     }
   ]
 }
