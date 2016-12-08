@@ -1,30 +1,8 @@
 {
   "plugins": [
     {
-		"repo": "multiSelect",
-		"name": "flood_slr"
-    },
-    {
-		"repo": "explorer",
-		"name": "habitat_explorer"
-    },
-    {
-		"repo": "explorer",
-		"name": "risk_explorer"
-    },
-    {
-		"repo": "future_habitat",
-		"name": "future_habitat"
-    },
-	{
-		"repo": "regional-planning",
-		"name": "regional-planning",
-		"ver": "57c6dc4"
-	},
-	{
-		"repo": "regional-planning",
-		"name": "community_planning",
-		"ver": "57c6dc4"
+		"repo": "beneftis_explorer",
+		"name": "benefits_explorer"
     }
   ]
 }
