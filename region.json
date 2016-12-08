@@ -1,11 +1,10 @@
 {
     "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
+    "titleMain": { "text": "Protecting Water Atlas", "url": "http://coastalresilience.org/" },
     "titleDetail": { "text": "New York", "url": "http://coastalresilience.org/geographies/new-york-and-connecticut" },
 	"headerLinks": [
-        { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
-		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
+	{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Partners", "url": "partners.html", "popup": true },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
@@ -24,10 +23,10 @@
             { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        -74.45,
-        40.41,
-        -71.7,
-        41.27
+        -130,
+        -50,
+        130,
+        55
     ],
     "basemaps": [
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
@@ -40,13 +39,8 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-		"regional-planning",
-		"community_planning",
-		"flood_slr",
-		"risk_explorer",
-		"future_habitat",
-		"habitat_explorer",
-        "zoom_to",
+		"launchpad",
+	    "zoom_to",
         "measure",
         "legend_display",
         "full_extent",
@@ -71,60 +65,25 @@
         "clickToFocus": true,
         "hideByDefault": true
     },
-     "launchpads": [
-        {
-            "id": "get-started",
+    "launchpad": {
             "title": "Getting Started",
-            "description": "Coastal Resilience in New York is a web-mapping platform that provides planners and natural resource managers access to data on coastal hazards, socioeconomics, and ecological resources, and tools to help guide decisions on reducing risk to communities and conserving and restoring coastal habitats.<br><br>To launch the web-mapping platform, click ‘Explore the map’ or select one of the Interactive maps listed below. ",
-            "showSubRegions": false,
-            "subRegionDescription": "Choose a specific region and it will take you there, or you can freely explore the map.",
-            "showByDefault": true,
-            "categories": [
-              {
-                "name": "Geographies",
-                "description": "Choose a specific region and it will take you there, or you can freely explore the map.",
-                "issues": [
-                    {
-                      "name": "Explore the map",
-                      "description": "",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MzA2NTAyLjIyOcWGMzMyM8SaecWBxJM0ODk0MMWcLjcxNjI1NTjFpcS/xKl4xIgtNznFojg0MS4zxYkxxZHFkTXFlcWpxIjFicWFOTEwxYzFmzXFoTE0xZTEgXBhdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIjGgDLGgDDEmmzGi2VzdFfGmcabOjPFpjd9xKfEgWVsZWPEsGRCYcSYxKlwSW5kxK7EiDDGr8aKbmXEq8aWx4NlTnVtYsaSx4DEmsalxqNPZlBsdWfFgsSixpbEmMayxrRlZMeVx5fFgsSIbnVsbMSaxIzHom7HmnvGrsau",
-                      "faIcon": "fa fa-globe",
-                      "faSize": 32
-                    }
-                ]
-            } ,
-            {
-                "name": "One-Click Interactive Maps",
-                "description": "Choose a specific region and it will take you to the recommendations map for that area, as well as allow you to explore the full suite of data and priority maps and make a custom map.",
-                "issues": [
-                    {
-                      "name": "Hurricane Sandy Surge Extent",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MjczODYzLjYxxYUyNTY4OMSaecWBxJM0OcWQOMWILjUyMDAyMjQyMcS/xKl4xIgtNzk5M8WwOS43xaQ0xY45ODXFlcWpxIg1MDY3NzA1xYw0NDUxOTc2MsSaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxxaLGojDEmmzGkGVzdFfGnsagOsWINTfEpyJjYWNoxprEgF9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvHhcWoxYLFq8WFxYfFicWLxY3Fj8WRxZPFu8eNOsWZxZvFncWfxaHFo8WlxacixYBhxao6xazFrsWwM8WyxbTGhsW3xbnFu8ekxb3Fv8aBxoPGhcaHxonGi8aNxIHGvMaRxpPGlcaXxIZjxrnGnMatxqHGo8WhxqbGqMaqxqzGn8SIxrDGssazZnJhbWVJZMeAWzBdfcicxrPEmGxlY8SwZEJhxJjEqXBJbmTErsiOxrPGvG5lxKvGm8ixZU51bWLGl8SIxqXEgXTGqE9mUGx1Z8WCx4DEimXIocijZWTJhMmGx5gixIzJkW5zL8anecaXX8igyKJ0b3IixJrJlMmHyZbEs8mkyYjJmGHJmnLJnMmLyZ7JoMSzcm9vdC9Db8inyYBsIMaUc2nEjciBZSAoTlkpL05ldyBZyaBrMTIzxofGgDg5xqIxypnFpjMxxbbGiDbEs2/GvGPEjnnIvcWzxJrGt8iia8mOxKPElsSYxrN2xpfJv2/EkyIxLjHJoiLJs8m1ybfJucaqxJbJvcapyoBpyoLKhMqGyojKisqMyo5yypA4xonFoMqhyqPKpcqnN8qpxrhjyqzGrsSkyrDEmsq9ybbJuMm6y4LJvsuFy4fKhcqHyonKi8qNyo/Fo8qSxaTFkDLGjDfLk8a2y5U6MMqoxrTLmcubyq7Epcazy6DKv8ujybzLpcqBxpnLiMupy4vLrMuOMsWvMMqcM8qSM8u1yqTEtcuWy5jKq8qtxJTKr8Smy5/JtMuhy4DJu8uDyb/MhsiCzIjLisury41rMzUzxYrHkMeqNDDFtsWlzJTLt8u5y5fLu8yZy5zMnMyAzJ/MgsuBzITLhMylyoPLqMyoy4zKj8aGxoc0NjQ3NDjFmcW+xojMtsyWy7jLusqqy5rMmsudzJ3KvMy/y6LNgcyjy6bMh82Gy6rNiMuOzK01xoc1zZXKps2XzLnNmcu9zJvLv8yeyr7NoMyizIXLhs2ky4nNpsyLa8axNcW5Oc2tzJfMus2azLzNtM2eyr5IdXJyaca1yLIgU2HIrHkvU86NZ2VCb3XIrMa9y4ZzIEbFgsuCxqM0zoTNr8yYzofEiHRydcSZInZpyb9iyKFMyavGl8iXyJnGpcWnMsiczbXJts6Mzo7OkM6VyoPOlM6WL8WgypHOk86VZM2uxIDKosu2zZbMuM6szbLNnMy+yr5EZXB0aCDJnyBHybPOn2R3xqhyL8WRYjNiOGIyZTRiMGNjxa3Frjdmz61hOM6qz5bOhs+YzL190IXQhQ==",
-                      "faIcon": "fa fa-tint",
-                      "faSize": 32
-                    },
-                    {
-                      "name": "Jamaica Bay (NYC) Marsh Migration",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky04MjQxMzk0LjLFijM3MMWJMsSaecWBxJM0xYo2OTI4xYw4MTk5NzjFh8S/xKl4xIjFhDIwNjPFnC44MDc2NDQ2MTXFlMWnxIjFmMW0NsW3LjY3MjU1xaHFo8SaxIthdGnEllJlZmXEhMSdxLjEiSJ3a2lkxIgxMDLGnTDEmmzGi2VzdFfGmcabOjM4NTfEpyJjYWNoxpXEgF9wYXJ0xKI6W8StxK/EscSzxLXEt8S5xLvHgsWmxYLFqcWFxYfFicWLxY00xY/FkcWbxbrHijrFmMW2xZvFncWcxaDFosWkMcWmYcWoOsWqxazFrsWdxbHFs8W1xbfFuSLFlceixbw5xb7GgMaCxoTGhseexonGucaMxo7GkMaSxIZjxrbGl8apxpzGnsagxqLGpMamxqjGmsSIxqzGrn3GsGZyYW1lSWTGvVswXX3Im8awxJhsZWPEsGRCYcSYxKlwSW5kxK7EiDbGsMa5bmXEq8aWyLFlTnVtYsaSxIjGocSBdMakT2ZQbHVnxYLGvcSKZcigyKJlZMmEyYbHliLEjMmRbnMvZnV0dcSEX2hhYsSOxosixJrJlMmHyZbEs8mmyYjJmMmayZxlyZ7JoMmixLLGlmdlb8SzbsiTxpUiTmV3IFlvcmsgQ8SOecmkxLrHgcS9xLPFgMeWLTfHjzbGnzUwx6k3x5XFlzAuNDcxxaDFjTHKk8ehx6PKkDPGgcqexZDGrsWFOMW6x7DHl8qbxZswNTY4xa40yq3Egce6xo1sxo/GkcaTyIDEs8aYyIvHl8WuyK/GsMmcbMS5aHR0cDovL8SYcnZpyIBzLmNvyKbJgGzEhHNpxI3Hv2UuyoJnL8a6Y8mHyZfLn3TLksaSy5XLly9Gya3JnUjJscmAy65OWV9TTEFNTV/Lu0MvScSpybVTy7DIvMSayIBsxJdpesaVx6Aicm9vybPJvMu8y77MgMyCzITKiWZpyYvGqiLJuciUyonFgsSOyrxDb8irzKrMrcS5yKrMqsSWX8yszK7GjMywxJpiyZp0zK3ImMSAxox0yKDEuUTGi2Egc2/JnMiAOiDLu1NFUkRByonLicuLy43Lj8uRd82bLm55y5NkYc2deS5nb3YvIsSnzYDEjs2DOiJEb3dubMubZCDNhcmAIGHIqyDGj3DKgsS+Is2Wza/LjMuOy5Avd8a6xpNwxYLJuWPIoMuZb20vcMyWZi/MnMyBL82PzZHNk82pyJzEmsisxI3FgcSwcsS5X8qJdsa6xo1iyKDMv8ylybrEuUNozJfEmM27biDLvlLOusiAyblyacm3xJrGtWxwzYTNhiDOlm9kdciAzbd1y6BuZ866y7/MgSwgyZnIq8mOIGJ5zY5ZzZDNks2UxJrFgsisx6PIvs6ryYXGpcSIxr/Oscynza9DyZzGk3Q8YnI+zLZkzK/Eh8Saz6l1ybvMqce7bM+5z7vKic+Ez4bNr1llxrogxavGncqJyJ/IocijxKPElsSYzavPrsm7R0NNIMSfxajPvcSWz7/EudCazILQntCQyYvQksmO0JTEpdCXzKbJuzFtz5zPnsafMMSr0KDPqsS50LBfz51f0LTQtsSB0KjJjcaqxKTQlizEgNCuxLlSSdCcTceK0LfQos2v0YrQpdGO0YDJjNCTxJTQlcSm0YbQmNGJ0YvQncew0Y/Ju9GSX9CmxonRgdGXdHLPv8ic0K3Oss+wzrVvzrfNh8SQxIbOrG/KgNCLzqfPpM+ax6PMlM++z6vGvtGH0a4ixavGhM6q0KHJu9KFNdCn0ZbQqtGY0KzRm9GIza/Fq8aF0ofQuNKTyrPSi9Gm0o3Rg9GZ0a3Pr9KEypbSmiLRv8S5xavGrdKM0KnSndKQ0oLSoNC+0pbRkNKExqDSqdGCxIjRqdGryJtdzI3Jn8+SxpXSt8SZIsmfyaHLuc6w0pLKis6Qdcis0rDSgFvFuCzKotOPypgxyq3FoCzFk8af05Y0yJvSkdKDRsqCxqXIoyBXZc2CzbzIl9OLyJgzLDQsOdOWM9K60ZXSqtK20arRmtKtybvEn3JzaNOoz6zFuTYsypjKrcWr07HQkdK1OtK/0p/Ju0LQi8a0xqXOuM23RsajxrzTvca+xp3Tj8egMcWTxYjTj9OsMtOXNtSF0afSjtSJ05zSoERldsmLb8S3zbdM06bUldON05Y11KLSnNO00rjMjW/NtXLIqM+syJksxqHVgdK61LLTk9OqN9OSMNOaLFvTl8aE04/VidSBN9WD1YbTksW/1ZHVg9Os1YcsxaTVgNWDxbnVmse21ZfVi9SA1J/GodWhxavImtWL1ZXFucqi1Z/VktWLyq3VmsWg06rVs9WD067KotSA1bLFv9WD1JfVp8aF05bGntW8x6DGn9aDyp/Tlsqf1bzTl9W/1aHVh9W806rVgdWd1Ysx06zFuMah1pXTj8qV1bzVrtWR1LPUtNaS1bnKmNWgxoXVvNah1qXWndW81bHWpse21bzTrtWa1brUodWLxavVgCw21YLWsceg1pDVqdWM1JvVltSax6DWjdax1ZTTj9OY14DVjNOs1rnVg9WO14jTscajyLvEl8SzMc2E1KnUq9StINSvyKvKiTLEuVXPmtSqzbXXldeXxpvEmjPEuVPOim3PhsSaNM6zxLbLn3PXpsiT16ki0ovNr8iqxqPNvUbLn2jOis6m0Z/TutO8xJo2xLlUxprEliDXucal17vGpHLXvtO7yok32IPIksmWz7vYhtO507sgKMSQ0apiLVNo2Jspyok40YllZ3XGo3Jsz57UksyXyKzNt9iW2IAiOcS5xJ/PksyW1KrKidCPza9FxqZ1zqzIsiDUjMaz2LHKn9iD2IVs2IfUk9i515rNr0/IgM282YHUjdmE16TZjdmPzrnUksmjxJrWk9GJb2Nrz57Iqs6mxozNocuK2ZrXtCLXttOmIE/Et865V9iL2LnYgtGRadSqz4DZgNiE2aTYudiQ2LvYvdi/ZdOi2bDZmtijza/ZuNiGQ8SEZWvYudiz2Y3Zrdmr2ZbXmci02ahyxITYptio2KrZiditz5vYsNeZ15HNr07MmCBVxJjXotKE2YzZqM202arYntOf15nZlCLahdmI17DXqNeZ16vNr0LXt9qKxJrShs2v2KzPi8+b1KjXntSsz5vXodeZ2bIi2r1k057LrdiYxLfUvM28xLHamGbNtdq+zbdj163GpXPNiNencNihxrDErtOI04rUltWs1IAx05LTlNOu05fWg9OaxrDRqc28xr3Ivsifz6XIrTrbsMmfx4XGltm2Z8iYW1vFqsW/x4zFsMWI1JrFrcWIxbnFmDPFtjUyxbA3M8ad3IjFodWD277KtcWG3IHcjjLchDPFucqV0LXFrdyLyrTGntSfxZrVitu9xYUwxp3Hsi7VhzPFtzPGntSA3JzHptyf1rXUn9yYxYrcktym3Kg23Krcjdyt3K/TqznciDbcityM3I7FkcWYOdy43JjclMWLxZ/cl9yZ3IbdgdyJ3Is43I3cj92IXd2Zx7nGi8q8yr7HvsaUy4LIgzrGndC+yI/dpsiP",
-                      "faIcon": "fa fa-leaf",
-                      "faSize": 32
-                    },
-                    {
-                      "name": "Risk & Priority Habitats",
-                      "description": "Combined storm surge and sea level condition in Ventura County for the year 2100",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOnRydWUsxIF5bmNNYXBzxIjElcSXfcSZbcSfMMSIxIBleHTEhnTEqiJ0eXBlxIgixKzErm7EsMSZeG1pxJMtODI1MzA3Mi43NDbFhTIwNMWExJl5xL/EkzQ4OMWQMzQuOcWEMjIxMTAxxL3Ep3jEiC03OTg1NTQzLjE0N8WFNDDFrsWTxafEiDUxNjTFvjnFssWLxaHFrjM5xJnEi2F0aWFsUmVmZcSExJzEtsSJIndraWTEiMWjxaEwMMSlImNhY2jGlsSAX3BhcnTEoTpbxKvErcSvxLHEs8S1xLfEuca0xabFgMWpxYPFhcWHxYnFi8WNM8WPxZE1xbrGvDrFl8WZxbDFnMWeNcWgxaLFpMWmYcWoOsWqxazFrsWwxbLFtMW2xbjHhyLFlMeVxbzFvsaANsaCMcaEMcaGxojEgcarxozGjsaQxpLGlGPGqMaYxprGnDrGnsWjxqHGomZyYW1lSWTGr1swXX3Iicaic2VsZWPErmRCYciNxKdwSW5kxKzEiMahxKbEnzHEsca5xLvGtcS0xpbEuMazyKTGu8WBxr4zxbPHqDgzNTYwMjk0x4jFlsWYxZrHjsWfxaHGnseUx5bHmMWtNjHGgjU4NMizMsWGNsW6x6M6xb3Fv8aBxoPFkcerxa/Gicevxo3Gj8aRxpPEhse1xLHGmcabxp3Itce8xqLGpMamx7bGqsasxq7EiMaxyKjEusSwxpfGtsinyKPEvCLEvseJxYLFhMiuNMiwyLLItMi2yLjHocWVxIjHi8i8xZ3IvseSMsmBxanFq8mEyYYuyYjJijbJjDDJjsqEyZDJksemx6jHqseayZnGi8mbx7LJnsaVyaHHuMmkxp/HvcSZx7/IgciDyIXJrsiIyIp9yIzIjsiQyJLIlMiWxJ/Imcibx5bIniLGq25lxKnGl8uAZU51bWLGk8idxol0xotlT2ZQbHVnxYDGr8SKyrXIkWVky5PLlceJyr/LlMuWbnMvcmlza1/ErMSMb8SEciLEmcSMy5/LpMSxy7PLo8uly6fLqcureMuty6/EsWdlb2fIgHBoecSxxI5lbciGxIDIm2ZhdWzJssWlIsWAyrzEt3ZpX21faMuxIsW7x7rEpseJMMuNZXDGncSZxK7ErcS3V8SOaCBTZWEgTGV2yI4gUsuoxLbMq8imxLdsYXnLi8SZzIRvdcypOsyhxJd4yKHEmcyac2liyI/EiMyQbMiNxKXEgMysybIiPGI+VsySy4HIgGJpxI3EszwvzaAgy6ggxILLrsucIHXNkm5nIHnNiHIgxqZvace1IG9mza9vY8mbIHbNo8aTYc2mzah5zojGrMaNzZRlxKHMv8a3zYvNnMygzYfNicS3dc22cs2IxLXGnM2aIsyPzJHMk8uMzJbImsiczYtwb3BfzbDEhMygzKLMlcqFOsymxIHErs2KzJXOmc2LVG/LjmwgUM6vzJLKoW/Eh86WyKfNgs2Ey7DNhs6gzpzNizIizqTOpsySybLOucyXzqwib2zIm3LOsWPNsc60yZDOtsylzKfOvMyrxLnEt0/Pn8aTz4TPhs2CxozPicygybTNgc2DzYUizpvNiiLPlM+WxpHOp8+ZxJnPm8eWyr9vds+iz6TIn8eWz6fEk865c867zKrEss+szYtGyIHNp2nOlM2tbs+xzLnGrcyIz4vPuM+OzprPkc+9z78szZvNgM2LaM+Pz7vQpsS3yKHOpM6+zZ7NoFNob3cgTWU6zarNoM+20KvQlMytz5DOoc6dzp/Oocucz5XQqdGDzZ1Qy6fLrsSOzo/Po8ukxpN2z4jQncaszLRzIHfGp8SEIGjOjMSOxovRnMSNa8iOzo/EhGR1zoDLumsgbtC50YHOlyJhxJzNp82CctChzqXQgc+YzqnQhc6pz7zRh8+80YrIisSZ0bfOhmzRunlVcmzEt2h0dHA6Ly/IjXLMmse1cy7Po8iVz4LEhM2SxI3Jn2Uuy65nL8asY8uWy7nOlHTSmNGWzb/OlC9OZXdfWcuua9K1WV/MvMu7Rcu9bM2xz6HQt9C5X9C8X0zPuXLLpcSecMyz0prPum7KrcS30rbQutK6cmvMoHXSj9KR0pPSldKX0pnSm86U0p5v0qDGjtKi0JnSpdKnctKp0qvSrcum0q/SsdKa0rPLpc+F0JFHSVMvRMaLzozIlWVDz4nLgciRac+JL9OQ05LQn860ZXTQuMqvzYvIgtSQb8iF0r3Sv8uoy6rTgsu+xpPTidSP1JHSnXBkZsygd9K7xorHtciExLfOrtCR0q3OmsyC1JTRu1TRgs6uxYDJt2TUgMiNzZ1ueV/Rr8u81J3PodS5y47MoMSEcUbQms+fyIbPnWJqyrbJo8aJ0aLGt13Emc+XzJNTxZRiz57IpdG1zpTLp1NNU8yg0JF5zZXNi9WfadWhU0NpcmPNlcSZz6PThMuwxrDHq8ym1bcs1bnFhDXVlcSBaXrGljjSiM221afOuXjOgmbUu86pzblm1orUj86pzYh0xI3LgcSx1bPLrsmu1bnWmjXMpsiIxJl3xpvUkMadyrPVss+ey65SyIHNiltbNMi4McmM1brFgyzVvNWVW8epxaXFoTfWszMz1rPFrta11bzWvseHyYbWuNa/LFvJvNW6xYssOda61rTXh8aF1r7Ws9aD1rTIicifxYDPgGdnyI9Dxqdj0ajHuTHKs9akyr/Rt2XIocuE16bLh8uJy4vMo866y4/Lkcuey7jEsciNyI/Lm8udy6LLoMu3y5fLptSa1YHVtM+617vLtcuE17nLpNe9y7vLrNiA1bXEgMyBzIPMhcyHzInErsyMya7MjtG+zqjXrtKBzYvMmsyczJ7PpdCNzKTQj8+p0JPQtMyv1JDMssy0zLbMuMy604DMvsSy0YLPjc+60oPUk82NzY8izZHNk9WnzZfNmdGM0LTNn82hzorNpdCZzanNqz7NrdGczrLNss20xYDNt825057NvNC40rPOgc6Dc86FzofOiWzNpNGjzo7OkMunzozIj86V2K7Rtc6Z0YXPkiLOntKFzqPRjNWXzJTQhM6r0IbOrs6w2YjYntCTzrfQkNCS167QtM+Az4LPsXDPh8+0z4rZoc+M043QpdGGz5PRi9iVzJDRv9iY2a7Et8+ez6DQis6z0IzZtM+ozrrMqNij0JUiz67PoNm82b7UiNqAz7fNi9iw0K7Yss++2ofRvdqJ2JfMldiZ0IfQidmy2pLXrtm12KLZuNqY0JfEv9Kk0ZzFgNCexpPEs9G02oLQpNmk0KfaptqgItCt2oTZpdCy2LzamNi+04fQutC80L7ZhNq9xLfZo9Cv2oXZptGIzYnShtuJzK3Ni9GP1IjLp8SzzbzPidOk0Zgg0ZrIldGd0Z9l0aHRo8uOxq4g0afRqSDRq9Gt26rRr9Gx0bPQos2L0onRucas0bzZq9CT2JnOudqk2afQptKG1b7bu9KL273SjtKQ0KzTodKW07XTpdKd0p/QkdOqzpTTrMaV067TsNWv07LSotKw06TTt9K10rfSudK71JjTgNSb04PThV/bjNSf04vTjdOPxJ/UjNOU05bNi9OYINOa05zEmdOe3IzbhNyO06PSstKc06fTqWzTq9Kk3JjSqNKq3JvLqNOz0JHckNyg07l007vTvdO/y45i1ILUhG7Uhtm/1IrcsNGWz7rUlNShxLfdn9SWy6VO0r7cpl/UnNiK1J/UlciFLtSj1KXWn9SoxqvUqse50IfUrsuo1LBv1LJ51LTRtdS2yKrOpdS61pDNi9S91L/XvtiJ3KnVhGHVhmXViNWK1JJb1Y3Vj9SHxpzVksSfxLbVvtmr1ZnLidWcybPRgtWp1avVpMSz1afEuHPVoNWi1a3Vr9WxxqPWptW11rbWnNW63rDVu9eG1b/WgcSI1oPRttaFxpbWh9aJ1ovOuMWT3r3eg8651pLWlMe21pfertab1bjesNaexpjWocyfx7rXpN+H1qht1qrWrNau1rAx1rLXj9a2N9a4x6nWu9a935vXgdeB14TXgteAxYXXisi4143fpteQx6vXkjLXlNa/15bMoWHXmMyD15vUg9ee16DWo9ejfQ==",
-                      "faIcon": "fa fa-exclamation-triangle",
-                      "faSize": 32
-                    }
-                  ]
-              }
-            ]
-        }
-    ]
+            "description": "Welcome to the Protecting Water Mapper, where users can quickly and intuitively explore data and analyses that underpin The Nature Conservancy&#39;s global-scale reports, 
+			<a href='https://global.nature.org/content/beyond-the-source' target='_blank'>Beyond the Source: The Environmental, Economic and Community Benefits of Source Water 
+			Protection</a> (forthcoming, January 2017), and <a href='https://global.nature.org/content/water-share' target='_blank'> Water Share: Using Water Markets and Impact 
+			Investment to Drive Sustainability</a> (September 2016). This mapping site is part of a large and growing family of spatial decision tools supported through the
+			<a href='http://coastalresilience.org/natural-solutions/toolkit/' target='_blank'>Natural Solutions Toolkit</a>.<br><br>",
+            "plugins": [
+                {
+                    "title": "Benefits Explorer",
+                    "description": "Investing in watersheds produces a range of benefits and contributes to addressing other social, economic and 
+			ecological challenges in addition to water security. The <span class='bld'>Benefits Explorer</span> app allows users to see where investments may achieve the most co-benefits for 
+			people and nature.",
+                    "pluginName": "benefits_explorer"
+                }
+            ],
+            "scenarios": [
+                
+             ]
+      }
 }
 
