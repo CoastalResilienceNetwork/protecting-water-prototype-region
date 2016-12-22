@@ -7,6 +7,11 @@
 	{
 		"repo": "water_funds_prototype",
 		"name": "water_funds_prototype"
+	},
+	  {
+		"repo": "water_share",
+		"name": "water_share"
 	}
+	  
   ]
 }
