@@ -97,12 +97,12 @@
 				},
 				{
 					"title": "Water Security Explorer",
-					"description": "Investing in watershed health is a sustainable way to help achieve water security. With the Water Security Explorer, a user will be able to identify where communities can reach user-defined water pollution reduction targets and what would be required to reach these targets in terms of area and cost."
+					"description": "Investing in watershed health is a sustainable way to help achieve water security. With the Water Security Explorer, a user will be able to identify where communities can reach user-defined water pollution reduction targets and what would be required to reach these targets in terms of area and cost.",
 					"pluginName": "water_security"
 				},
 				{
 					"title": "Water Share Explorer",
-					"description": "Innovative investments can help address water depletion. The Water Share app enables users to look at how, where and when water has been used and explore potential strategies to alleviate scarcity within a given basin."
+					"description": "Innovative investments can help address water depletion. The Water Share app enables users to look at how, where and when water has been used and explore potential strategies to alleviate scarcity within a given basin.",
 					"pluginName": "water_share"
 				}
             ]
