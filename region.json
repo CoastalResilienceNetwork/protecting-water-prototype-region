@@ -44,7 +44,11 @@
         "measure",
         "legend_display",
         "full_extent",
-        "subregion_toggle"
+        "subregion_toggle",
+		"benefits_explorer_prototype",
+		"water_funds_prototype",
+		"water_security",
+		"water_funds"
     ],
     "print": {
         "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
