@@ -90,11 +90,21 @@
                 	"description": "Investing in watersheds produces a range of benefits and contributes to addressing other social, economic and ecological challenges in addition to water security. The <span class='bld'>Benefits Explorer</span> app allows users to see where investments may achieve the most co-benefits for people and nature.",
                		"pluginName": "benefits_explorer_prototype"
                 },
-		{
-			"title": "Water Funds",
-			"description": "Water funds are a source water protection mechanism for sharing the benefits of healthy watersheds across communities. The Water Funds Explorer app allows users to explore where water funds have been established, to learn about their key attributes, and to query across different water funds to learn the approaches and attributes various funds have in common.",
-			"pluginName": "water_funds_prototype"
-		}
+				{
+					"title": "Water Funds Explorer",
+					"description": "Water funds are a source water protection mechanism for sharing the benefits of healthy watersheds across communities. The Water Funds Explorer app allows users to explore where water funds have been established, to learn about their key attributes, and to query across different water funds to learn the approaches and attributes various funds have in common.",
+					"pluginName": "water_funds_prototype"
+				},
+				{
+					"title": "Water Security Explorer",
+					"description": "Investing in watershed health is a sustainable way to help achieve water security. With the Water Security Explorer, a user will be able to identify where communities can reach user-defined water pollution reduction targets and what would be required to reach these targets in terms of area and cost."
+					"pluginName": "water_security"
+				},
+				{
+					"title": "Water Share Explorer",
+					"description": "Innovative investments can help address water depletion. The Water Share app enables users to look at how, where and when water has been used and explore potential strategies to alleviate scarcity within a given basin."
+					"pluginName": "water_share"
+				}
             ]
       }
 }
