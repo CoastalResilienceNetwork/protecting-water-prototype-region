@@ -4,9 +4,11 @@
     "titleMain": { "text": "Protecting Water Atlas", "url": "http://coastalresilience.org/" },
     "titleDetail": { "text": "", "url": "http://coastalresilience.org/geographies/new-york-and-connecticut" },
 	"headerLinks": [
-	{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
+		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
+        { "text": "ProtectingWater.org", "url": "http://www.protectingwater.org/" },
+        { "text": "Beyond the Source", "url": "http://www.nature.org/beyondthesource" },
+        { "text": "Water Share", "url": "http://www.nature.org/watershare" },
         { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
     ],
     "regionLinks": [
